@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1170px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Gilroy-Medium";
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+header .header_logo {
+    width: 137px;
+    height: 40px;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+header nav ul li a{
+    color: #000;
+    display: inline-block;
+    width: 76px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header nav ul li .active_menu {
+    color: #F25822;
+    font-weight: 600;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 84px;
+    margin-bottom: 162px;
+}
+
+@media screen and (max-width: 800px)  {
+    .top {
+        flex-direction: column-reverse;
+    }
+}
+
+.top .top_content h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.top .top_content p{
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 466px;
+    color: #888888;
+}
+
+.top .top_content .top_buttons {
+    margin-top: 37px;
+    display: flex;
+    gap: 36px;
+}
+
+.top .top_content .top_buttons button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+.top .top_content .top_buttons #start_now {
+    background-color: #F25822;
+    color:#fff;
+}
+
+.top .top_content .top_buttons #watch_video {
+    color: #AAAAAA;
+    background-color: #fff;
+}
+
+.top .top_image img {
+    width: 610px;
+    height: 372px;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 96px 0;
+}
+
+
+
